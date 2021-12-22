@@ -1,0 +1,14 @@
+@import-normalize;
+@import 'font.css';
+@import 'recipe-list.css';
+@import 'buttons.css';
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+*, *::before, *::after {
+    font-family: Quicksand, san-serif
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
