@@ -5,7 +5,7 @@ import { RecipeContext } from './App'
 const Recipe = (props) => {
     const { handleRecipeDelete } = useContext(RecipeContext)
     const { id, name, cookTime, servings, instructions, ingredients } = props
-    
+
     return (
         <div className="recipe">
             <div className="recipe__header">
